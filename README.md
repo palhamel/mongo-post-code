@@ -3,7 +3,7 @@
 Test GET endpoint: localhost:8080/tasks
 
 test POST endpoint: localhost:8080/tasks
-Send Body JSON:
+- Post Body JSON:
 
 {
 	"text": "This is task nr 3",
