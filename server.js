@@ -54,7 +54,7 @@ app.get("/tasks", async (req, res) => {
 // - Take clients input and send to database
 // Validate on input and act accordingly
 
-app.post("tasks", async (req, res) => {
+app.post("/tasks", async (req, res) => {
   // retrieve info sent by client to our API endpoint:
   const { text, complete } = req.body;
   // use our mongoose model to create the database entry:

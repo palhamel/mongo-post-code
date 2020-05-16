@@ -1,7 +1,17 @@
-# Express Starter Project
+# POST Requests & Mongo
 
-This project includes the packages and babel setup for an express server, and is just meant to make things a little simpler to get up and running with.
+Test GET endpoint: localhost:8080/tasks
+
+test POST endpoint: localhost:8080/tasks
+Send Body JSON:
+
+{
+	"text": "This is task nr 3",
+	"complete": true
+}
 
 ## Getting started
 
-Install dependencies with `npm install`, then start the server by running `npm run dev`
+- Install dependencies with `npm install`, then start the server by running `npm run dev`
+- Install mongoose
+- Start MongoDB
